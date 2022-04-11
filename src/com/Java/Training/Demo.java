@@ -5,6 +5,7 @@ public class Demo {
 	public static void main(String[] args) {
 		System.out.println("welcome");
 		int a,b;
+		System.out.println("a+b");
 
 	}
 
