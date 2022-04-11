@@ -6,6 +6,8 @@ public class Demo {
 		System.out.println("welcome");
 		int a = 0,b = 0;
 		System.out.println("Addition"+(a+b));
+		System.out.println("Substraction"+(a-b));
+
 
 	}
 
