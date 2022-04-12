@@ -1,4 +1,4 @@
-package com.Java.Training;
+package com.training.mars;
 
 public class Demo {
 
