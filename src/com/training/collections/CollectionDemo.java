@@ -7,6 +7,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.TreeSet;
 
 import com.training.inheritance.Student;
 
@@ -17,7 +18,7 @@ public class CollectionDemo {
 		Student student2 = new Student("john",1,"c");
 		Student student3 = new Student("mile",127,"d");
 		Student student4 = new Student("vicky",192,"c");
-		Map<String,Student> studentMap = new HashMap<>();
+		Map<String ,Student> studentMap = new HashMap<>();
 		studentMap.put("1", student1);
 		studentMap.put("2", student2);
 		studentMap.put("3", student3);

@@ -1,5 +1,7 @@
 package com.training.inheritance;
 
+import java.util.Objects;
+
 public class Student {
 	private String name;
 	private int rollNo;
@@ -28,6 +30,22 @@ public class Student {
 	public void setGrade(String grade) {
 		this.grade = grade;
 	}
+	@Override
+	public int hashCode() {
+		
+		return Objects.hash(grade,name,rollNo);
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (!(obj instanceof Student))
+			return false ;
+		Student other = (Student)obj;
+		return Objects.equals(grade, other.grade)&& Objects.equals(name, other.name);
+		
+	}
+
 	
 	
 }
